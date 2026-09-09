@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - xiaowu",
-        "🇫🇮 FI 02 - xiaowu",
-        "🇫🇮 FI 03 - xiaowu",
-        "🇫🇮 FI 04 - xiaowu",
-        "🇫🇮 FI 05 - xiaowu",
-        "🇫🇮 FI 06 - xiaowu"
+        "🇫🇮 FI 01 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaowu",
-        "🇫🇮 FI 02 - xiaowu",
-        "🇫🇮 FI 03 - xiaowu",
-        "🇫🇮 FI 04 - xiaowu",
-        "🇫🇮 FI 05 - xiaowu",
-        "🇫🇮 FI 06 - xiaowu"
+        "🇫🇮 FI 01 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },

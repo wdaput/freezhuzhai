@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 ID 01 - xiaowu"
+        "🇦🇲 AM 01 - xiaowu",
+        "🇦🇲 AM 02 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - xiaowu"
+        "🇦🇲 AM 01 - xiaowu",
+        "🇦🇲 AM 02 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },
