@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 AM 01 - xiaowu",
-        "🇦🇲 AM 02 - xiaowu"
+        "🇪🇬 EG 01 - xiaowu",
+        "🇪🇬 EG 02 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - xiaowu",
-        "🇦🇲 AM 02 - xiaowu"
+        "🇪🇬 EG 01 - xiaowu",
+        "🇪🇬 EG 02 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },
