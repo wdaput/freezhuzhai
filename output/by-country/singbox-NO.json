@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇳🇴 NO 01 - xiaowu",
+        "🇳🇴 NO 02 - xiaowu",
+        "🇳🇴 NO 03 - xiaowu",
+        "🇳🇴 NO 04 - xiaowu",
+        "🇳🇴 NO 05 - xiaowu"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇳🇴 NO 01 - xiaowu",
+        "🇳🇴 NO 02 - xiaowu",
+        "🇳🇴 NO 03 - xiaowu",
+        "🇳🇴 NO 04 - xiaowu",
+        "🇳🇴 NO 05 - xiaowu"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

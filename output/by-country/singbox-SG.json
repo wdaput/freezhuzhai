@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇬 新加坡 (Singapore) 01 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 02 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 03 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 04 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 05 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 06 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 07 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 08 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 09 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 10 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 11 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 12 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 13 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 14 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 15 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 16 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 17 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 18 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 19 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 20 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 21 - xiaowu"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇬 新加坡 (Singapore) 01 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 02 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 03 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 04 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 05 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 06 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 07 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 08 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 09 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 10 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 11 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 12 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 13 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 14 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 15 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 16 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 17 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 18 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 19 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 20 - xiaowu",
+        "🇸🇬 新加坡 (Singapore) 21 - xiaowu"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

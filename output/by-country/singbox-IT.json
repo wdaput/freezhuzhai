@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇹 意大利 (Italy) 01 - xiaowu",
+        "🇮🇹 意大利 (Italy) 02 - xiaowu",
+        "🇮🇹 意大利 (Italy) 03 - xiaowu",
+        "🇮🇹 意大利 (Italy) 04 - xiaowu",
+        "🇮🇹 意大利 (Italy) 05 - xiaowu",
+        "🇮🇹 意大利 (Italy) 06 - xiaowu",
+        "🇮🇹 意大利 (Italy) 07 - xiaowu",
+        "🇮🇹 意大利 (Italy) 08 - xiaowu",
+        "🇮🇹 意大利 (Italy) 09 - xiaowu"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇹 意大利 (Italy) 01 - xiaowu",
+        "🇮🇹 意大利 (Italy) 02 - xiaowu",
+        "🇮🇹 意大利 (Italy) 03 - xiaowu",
+        "🇮🇹 意大利 (Italy) 04 - xiaowu",
+        "🇮🇹 意大利 (Italy) 05 - xiaowu",
+        "🇮🇹 意大利 (Italy) 06 - xiaowu",
+        "🇮🇹 意大利 (Italy) 07 - xiaowu",
+        "🇮🇹 意大利 (Italy) 08 - xiaowu",
+        "🇮🇹 意大利 (Italy) 09 - xiaowu"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

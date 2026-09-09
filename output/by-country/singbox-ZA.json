@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇿🇦 ZA 01 - xiaowu",
+        "🇿🇦 ZA 02 - xiaowu",
+        "🇿🇦 ZA 03 - xiaowu",
+        "🇿🇦 ZA 04 - xiaowu"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇿🇦 ZA 01 - xiaowu",
+        "🇿🇦 ZA 02 - xiaowu",
+        "🇿🇦 ZA 03 - xiaowu",
+        "🇿🇦 ZA 04 - xiaowu"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

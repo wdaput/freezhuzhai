@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇫🇷 法国 (France) 01 - xiaowu",
+        "🇫🇷 法国 (France) 02 - xiaowu",
+        "🇫🇷 法国 (France) 03 - xiaowu",
+        "🇫🇷 法国 (France) 04 - xiaowu",
+        "🇫🇷 法国 (France) 05 - xiaowu",
+        "🇫🇷 法国 (France) 06 - xiaowu",
+        "🇫🇷 法国 (France) 07 - xiaowu",
+        "🇫🇷 法国 (France) 08 - xiaowu",
+        "🇫🇷 法国 (France) 09 - xiaowu",
+        "🇫🇷 法国 (France) 10 - xiaowu",
+        "🇫🇷 法国 (France) 11 - xiaowu",
+        "🇫🇷 法国 (France) 12 - xiaowu",
+        "🇫🇷 法国 (France) 13 - xiaowu",
+        "🇫🇷 法国 (France) 14 - xiaowu",
+        "🇫🇷 法国 (France) 15 - xiaowu",
+        "🇫🇷 法国 (France) 16 - xiaowu",
+        "🇫🇷 法国 (France) 17 - xiaowu",
+        "🇫🇷 法国 (France) 18 - xiaowu",
+        "🇫🇷 法国 (France) 19 - xiaowu",
+        "🇫🇷 法国 (France) 20 - xiaowu",
+        "🇫🇷 法国 (France) 21 - xiaowu",
+        "🇫🇷 法国 (France) 22 - xiaowu",
+        "🇫🇷 法国 (France) 23 - xiaowu",
+        "🇫🇷 法国 (France) 24 - xiaowu",
+        "🇫🇷 法国 (France) 25 - xiaowu",
+        "🇫🇷 法国 (France) 26 - xiaowu",
+        "🇫🇷 法国 (France) 27 - xiaowu",
+        "🇫🇷 法国 (France) 28 - xiaowu",
+        "🇫🇷 法国 (France) 29 - xiaowu"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇫🇷 法国 (France) 01 - xiaowu",
+        "🇫🇷 法国 (France) 02 - xiaowu",
+        "🇫🇷 法国 (France) 03 - xiaowu",
+        "🇫🇷 法国 (France) 04 - xiaowu",
+        "🇫🇷 法国 (France) 05 - xiaowu",
+        "🇫🇷 法国 (France) 06 - xiaowu",
+        "🇫🇷 法国 (France) 07 - xiaowu",
+        "🇫🇷 法国 (France) 08 - xiaowu",
+        "🇫🇷 法国 (France) 09 - xiaowu",
+        "🇫🇷 法国 (France) 10 - xiaowu",
+        "🇫🇷 法国 (France) 11 - xiaowu",
+        "🇫🇷 法国 (France) 12 - xiaowu",
+        "🇫🇷 法国 (France) 13 - xiaowu",
+        "🇫🇷 法国 (France) 14 - xiaowu",
+        "🇫🇷 法国 (France) 15 - xiaowu",
+        "🇫🇷 法国 (France) 16 - xiaowu",
+        "🇫🇷 法国 (France) 17 - xiaowu",
+        "🇫🇷 法国 (France) 18 - xiaowu",
+        "🇫🇷 法国 (France) 19 - xiaowu",
+        "🇫🇷 法国 (France) 20 - xiaowu",
+        "🇫🇷 法国 (France) 21 - xiaowu",
+        "🇫🇷 法国 (France) 22 - xiaowu",
+        "🇫🇷 法国 (France) 23 - xiaowu",
+        "🇫🇷 法国 (France) 24 - xiaowu",
+        "🇫🇷 法国 (France) 25 - xiaowu",
+        "🇫🇷 法国 (France) 26 - xiaowu",
+        "🇫🇷 法国 (France) 27 - xiaowu",
+        "🇫🇷 法国 (France) 28 - xiaowu",
+        "🇫🇷 法国 (France) 29 - xiaowu"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
