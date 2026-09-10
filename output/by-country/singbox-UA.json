@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 UZ 01 - xiaowu",
-        "🇺🇿 UZ 02 - xiaowu"
+        "🇺🇦 UA 01 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - xiaowu",
-        "🇺🇿 UZ 02 - xiaowu"
+        "🇺🇦 UA 01 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },

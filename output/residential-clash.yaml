@@ -15,12 +15,12 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: ios
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaowu
   type: vless
-  server: 619c9ae2-tla000-tls5or-6gn6.hk3.hyhuawei.com
+  server: 0cd6e0e6-tlheo0-tphvvu-gacy.hk3.hyhuawei.com
   port: 443
-  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  uuid: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -33,44 +33,23 @@ proxies:
   server: namrcg001640lrm.cybervena.com
   port: 50099
   cipher: chacha20-ietf-poly1305
-  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
   udp: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaowu
-  type: ss
-  server: 36.224.152.189
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  udp: true
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaowu
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaowu
   type: vless
-  server: 60.248.219.52
-  port: 443
-  uuid: f265b49a-70a3-407a-b17b-e45dfb9f255c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.52
-- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaowu
-  type: vless
-  server: 188.114.97.6
+  server: 172.64.52.175
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: ?ed=2560
     headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaowu
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaowu
   type: vless
   server: 104.21.33.59
   port: 443
@@ -84,10 +63,66 @@ proxies:
     path: /?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaowu
+  type: ss
+  server: 36.224.152.189
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  udp: true
+- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaowu
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  udp: true
 - name: 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaowu
   type: vless
-  server: 104.18.42.163
+  server: 104.18.38.47
   port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🇺🇸 美国 (United States) 09 (家宽) - xiaowu
+  type: vless
+  server: 172.67.151.77
+  port: 443
+  uuid: 73796e63-0000-4000-8000-000000000000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nahan-core.fatitelegram.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.fatitelegram.workers.dev
+- name: 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaowu
+  type: vless
+  server: 59.125.69.19
+  port: 443
+  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 59.125.69.19
+- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaowu
+  type: vless
+  server: 188.114.97.6
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -106,11 +141,14 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaowu
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaowu
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaowu
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaowu
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaowu
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaowu
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaowu
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaowu
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaowu
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaowu
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaowu
   - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaowu
+  - 🇺🇸 美国 (United States) 09 (家宽) - xiaowu
+  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaowu
+  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaowu
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -119,10 +157,13 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaowu
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaowu
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaowu
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaowu
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaowu
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaowu
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaowu
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaowu
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaowu
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaowu
+  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaowu
   - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaowu
+  - 🇺🇸 美国 (United States) 09 (家宽) - xiaowu
+  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaowu
+  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaowu
 rules:
 - MATCH,PROXIES

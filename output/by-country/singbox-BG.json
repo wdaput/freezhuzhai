@@ -6,14 +6,30 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - xiaowu"
+        "🇧🇬 BG 01 - xiaowu",
+        "🇧🇬 BG 02 - xiaowu",
+        "🇧🇬 BG 03 - xiaowu",
+        "🇧🇬 BG 04 - xiaowu",
+        "🇧🇬 BG 05 - xiaowu",
+        "🇧🇬 BG 06 - xiaowu",
+        "🇧🇬 BG 07 - xiaowu",
+        "🇧🇬 BG 08 - xiaowu",
+        "🇧🇬 BG 09 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - xiaowu"
+        "🇧🇬 BG 01 - xiaowu",
+        "🇧🇬 BG 02 - xiaowu",
+        "🇧🇬 BG 03 - xiaowu",
+        "🇧🇬 BG 04 - xiaowu",
+        "🇧🇬 BG 05 - xiaowu",
+        "🇧🇬 BG 06 - xiaowu",
+        "🇧🇬 BG 07 - xiaowu",
+        "🇧🇬 BG 08 - xiaowu",
+        "🇧🇬 BG 09 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },
