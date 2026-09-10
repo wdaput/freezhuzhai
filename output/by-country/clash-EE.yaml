@@ -16,30 +16,13 @@ proxies:
 - name: 🇪🇪 EE 02 - xiaowu
   type: vless
   server: 94.183.170.135
-  port: 443
+  port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 03 - xiaowu
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 04 - xiaowu
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -48,7 +31,59 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 04 - xiaowu
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
 - name: 🇪🇪 EE 05 - xiaowu
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 06 - xiaowu
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 07 - xiaowu
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 08 - xiaowu
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -67,6 +102,9 @@ proxy-groups:
   - 🇪🇪 EE 03 - xiaowu
   - 🇪🇪 EE 04 - xiaowu
   - 🇪🇪 EE 05 - xiaowu
+  - 🇪🇪 EE 06 - xiaowu
+  - 🇪🇪 EE 07 - xiaowu
+  - 🇪🇪 EE 08 - xiaowu
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -77,5 +115,8 @@ proxy-groups:
   - 🇪🇪 EE 03 - xiaowu
   - 🇪🇪 EE 04 - xiaowu
   - 🇪🇪 EE 05 - xiaowu
+  - 🇪🇪 EE 06 - xiaowu
+  - 🇪🇪 EE 07 - xiaowu
+  - 🇪🇪 EE 08 - xiaowu
 rules:
 - MATCH,PROXIES
