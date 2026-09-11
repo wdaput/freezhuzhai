@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇪 IE 01 - xiaowu",
+        "🇮🇪 IE 02 - xiaowu",
+        "🇮🇪 IE 03 - xiaowu"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇪 IE 01 - xiaowu",
+        "🇮🇪 IE 02 - xiaowu",
+        "🇮🇪 IE 03 - xiaowu"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

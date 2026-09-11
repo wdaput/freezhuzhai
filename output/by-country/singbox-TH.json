@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - xiaowu"
+        "🇹🇭 TH 01 - xiaowu",
+        "🇹🇭 TH 02 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - xiaowu"
+        "🇹🇭 TH 01 - xiaowu",
+        "🇹🇭 TH 02 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },
