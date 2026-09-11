@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 LV 01 - xiaowu",
-        "🇱🇻 LV 02 - xiaowu",
-        "🇱🇻 LV 03 - xiaowu",
-        "🇱🇻 LV 04 - xiaowu"
+        "🇱🇻 LV 01 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - xiaowu",
-        "🇱🇻 LV 02 - xiaowu",
-        "🇱🇻 LV 03 - xiaowu",
-        "🇱🇻 LV 04 - xiaowu"
+        "🇱🇻 LV 01 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },
