@@ -15,15 +15,8 @@ proxies:
   reality-opts:
     public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
   servername: bowandbead.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 02 - xiaowu
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇳🇴 NO 03 - xiaowu
   type: ss
   server: 185.213.23.63
   port: 990
@@ -37,7 +30,6 @@ proxy-groups:
   - AUTO
   - 🇳🇴 NO 01 - xiaowu
   - 🇳🇴 NO 02 - xiaowu
-  - 🇳🇴 NO 03 - xiaowu
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -45,6 +37,5 @@ proxy-groups:
   proxies:
   - 🇳🇴 NO 01 - xiaowu
   - 🇳🇴 NO 02 - xiaowu
-  - 🇳🇴 NO 03 - xiaowu
 rules:
 - MATCH,PROXIES

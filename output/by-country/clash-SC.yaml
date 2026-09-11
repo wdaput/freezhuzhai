@@ -16,20 +16,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇨 SC 02 - xiaowu
   type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 03 - xiaowu
-  type: vless
-  server: 188.114.97.6
+  server: 162.159.24.131
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -37,10 +24,10 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 04 - xiaowu
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇨 SC 03 - xiaowu
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -50,9 +37,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇨 SC 05 - xiaowu
+- name: 🇸🇨 SC 04 - xiaowu
   type: vless
-  server: 172.64.42.85
+  server: 162.159.0.169
   port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -72,7 +59,6 @@ proxy-groups:
   - 🇸🇨 SC 02 - xiaowu
   - 🇸🇨 SC 03 - xiaowu
   - 🇸🇨 SC 04 - xiaowu
-  - 🇸🇨 SC 05 - xiaowu
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -82,6 +68,5 @@ proxy-groups:
   - 🇸🇨 SC 02 - xiaowu
   - 🇸🇨 SC 03 - xiaowu
   - 🇸🇨 SC 04 - xiaowu
-  - 🇸🇨 SC 05 - xiaowu
 rules:
 - MATCH,PROXIES
