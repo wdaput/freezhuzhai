@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 BE 01 - xiaowu",
-        "🇧🇪 BE 02 - xiaowu"
+        "🇲🇽 MX 01 - xiaowu",
+        "🇲🇽 MX 02 - xiaowu"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 BE 01 - xiaowu",
-        "🇧🇪 BE 02 - xiaowu"
+        "🇲🇽 MX 01 - xiaowu",
+        "🇲🇽 MX 02 - xiaowu"
       ],
       "url": "https://www.google.com/generate_204"
     },
