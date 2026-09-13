@@ -8,7 +8,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "05819bb1-2975-473c-a51f-0fbccf8d2cfa",
+      "uuid": "c4783cc5-aeec-4473-855b-1c98965949dd",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -47,6 +47,18 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+      "server": "85.204.107.177",
+      "server_port": 8080,
+      "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
+      "tls": {
+        "enabled": true,
+        "server_name": "hopp-romania-new.roxa.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -58,18 +70,6 @@
       "obfs": {
         "type": "salamander",
         "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "85.204.107.181",
-      "server_port": 8080,
-      "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-romania-new.roxa.org",
-        "insecure": false
       }
     },
     {
