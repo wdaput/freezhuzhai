@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇭 CH 01 - xiaowu",
+        "🇨🇭 CH 02 - xiaowu",
+        "🇨🇭 CH 03 - xiaowu",
+        "🇨🇭 CH 04 - xiaowu"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - xiaowu",
+        "🇨🇭 CH 02 - xiaowu",
+        "🇨🇭 CH 03 - xiaowu",
+        "🇨🇭 CH 04 - xiaowu"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
