@@ -4,18 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇧🇪 比利时 (Belgium) 01 - xiaohe",
-      "server": "199.232.78.101",
-      "server_port": 443,
-      "password": "MiTiVPN",
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "91.186.218.227",
+      "server_port": 4443,
+      "uuid": "83133384-24d7-42f4-a371-0836e03d5217",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net"
+          "Host": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
