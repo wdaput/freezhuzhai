@@ -4,15 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.17.147.22",
+      "type": "trojan",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "4ccf70f9-7632-4b5a-9557-10d2dd347bb2",
+      "password": "MiTIVPN",
       "tls": {
         "enabled": true,
-        "server_name": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev",
-        "insecure": true,
+        "server_name": "ssl.fastly.com",
+        "insecure": false,
         "alpn": [
           "http/1.1"
         ],
@@ -23,9 +23,8 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/G4J8aNAVZt9KdOjjcfZDFDRI1Obr5E0?ed=2560",
         "headers": {
-          "Host": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
+          "Host": "mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net"
         }
       }
     },
@@ -34,14 +33,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
