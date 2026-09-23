@@ -4,14 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "172.67.143.94",
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.18.32.47",
       "server_port": 443,
-      "password": "Telegram_healer_config",
+      "uuid": "1f87cbe7-316b-49ba-a416-d3c2af72ed50",
       "tls": {
         "enabled": true,
-        "server_name": "Z6Y-dAOx0HYhdTdy.R720KPbYX2L3i406.woRKers.DEV",
+        "server_name": "spidertest.vibenest.net",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -23,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/P9UvWEJwKNGrOjrb1ICnWGhH8iQGDcG?ed=2560",
+        "path": "/ws/1f87cbe7-316b-49ba-a416-d3c2af72ed50",
         "headers": {
-          "Host": "z6y-daox0hyhdtdy.r720kpbyx2l3i406.workers.dev"
+          "Host": "spidertest.vibenest.net"
         }
       }
     },
@@ -34,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
