@@ -6,21 +6,14 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "85.117.235.50",
-      "server_port": 443,
-      "uuid": "f4d71fd6-1c25-4748-836b-1dbda9268039",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cz1.animeteka.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc",
-          "short_id": "232b1b09e45325a4"
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9",
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "headers": {
+          "Host": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
         }
       }
     },
