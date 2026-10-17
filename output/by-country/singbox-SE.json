@@ -14,7 +14,7 @@
         "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -30,21 +30,20 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "edge-lab-b.10media.top",
+      "server": "94.143.231.146",
       "server_port": 443,
-      "uuid": "9cb8d71c-fe06-4402-a591-eaa1f173b890",
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "tls": {
         "enabled": true,
-        "server_name": "edge-lab-b.10media.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
+        "server_name": "sub.merky.top",
+        "insecure": false
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "swedenfeed"
+        "type": "ws",
+        "path": "/merky-connect/de6/",
+        "headers": {
+          "Host": "sub.merky.top"
+        }
       }
     },
     {
